@@ -1,0 +1,529 @@
+
+> api@0.0.1 dev
+> nest start --watch
+
+[2J[3J[H[[90m5:13:47 PM[0m] Starting compilation in watch mode...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m3[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"./entities/comment.entity"' has no exported member 'Comment'.
+
+[7m3[0m import { Comment } from './entities/comment.entity';
+[7m [0m [91m         ~~~~~~~[0m
+
+[[90m5:14:00 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:15:00 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:15:01 PM[0m] Found 0 errors. Watching for file changes.
+
+C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\apps\api\src\comment\comment.resolver.ts:6
+@Resolver(() => Comment)
+                ^
+
+
+ReferenceError: Comment is not defined
+    at <anonymous> (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\apps\api\src\comment\comment.resolver.ts:6:17)
+    at getClassOrUndefined (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\@nestjs\graphql\dist\decorators\resolvers.utils.js:35:15)
+    at getClassName (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\@nestjs\graphql\dist\decorators\resolvers.utils.js:19:30)
+    at C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\@nestjs\graphql\dist\decorators\resolver.decorator.js:42:69
+    at DecorateConstructor (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\reflect-metadata\Reflect.js:549:33)
+    at Reflect.decorate (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\reflect-metadata\Reflect.js:143:24)
+    at __decorate (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\apps\api\dist\src\comment\comment.resolver.js:4:92)
+    at Object.<anonymous> (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\apps\api\src\comment\comment.resolver.ts:7:29)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+
+Node.js v22.11.0
+[2J[3J[H[[90m5:15:17 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:15:17 PM[0m] Found 0 errors. Watching for file changes.
+
+C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\apps\api\src\comment\comment.resolver.ts:7
+@Resolver(() => Comment)
+                ^
+
+
+ReferenceError: Comment is not defined
+    at <anonymous> (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\apps\api\src\comment\comment.resolver.ts:7:17)
+    at getClassOrUndefined (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\@nestjs\graphql\dist\decorators\resolvers.utils.js:35:15)
+    at getClassName (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\@nestjs\graphql\dist\decorators\resolvers.utils.js:19:30)
+    at C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\@nestjs\graphql\dist\decorators\resolver.decorator.js:42:69
+    at DecorateConstructor (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\reflect-metadata\Reflect.js:549:33)
+    at Reflect.decorate (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\reflect-metadata\Reflect.js:143:24)
+    at __decorate (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\apps\api\dist\src\comment\comment.resolver.js:4:92)
+    at Object.<anonymous> (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\apps\api\src\comment\comment.resolver.ts:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+
+Node.js v22.11.0
+[2J[3J[H[[90m5:15:19 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"./entities/comment.entity"' has no exported member 'Comment'.
+
+[7m5[0m import { Comment } from './entities/comment.entity';
+[7m [0m [91m         ~~~~~~~[0m
+
+[[90m5:15:19 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:15:25 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module './entities/comment.entit' or its corresponding type declarations.
+
+[7m5[0m import { Comment } from './entities/comment.entit';
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[[90m5:15:26 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:15:26 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module './entit' or its corresponding type declarations.
+
+[7m5[0m import { Comment } from './entit';
+[7m [0m [91m                        ~~~~~~~~~[0m
+
+[[90m5:15:26 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:15:27 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '.' or its corresponding type declarations.
+
+[7m5[0m import { Comment } from '.';
+[7m [0m [91m                        ~~~[0m
+
+[[90m5:15:27 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:15:27 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module './' or its corresponding type declarations.
+
+[7m5[0m import { Comment } from './';
+[7m [0m [91m                        ~~~~[0m
+
+[[90m5:15:28 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:15:30 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module './entities' or its corresponding type declarations.
+
+[7m5[0m import { Comment } from './entities';
+[7m [0m [91m                        ~~~~~~~~~~~~[0m
+
+[[90m5:15:30 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:15:31 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module './entities/' or its corresponding type declarations.
+
+[7m5[0m import { Comment } from './entities/';
+[7m [0m [91m                        ~~~~~~~~~~~~~[0m
+
+[[90m5:15:31 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:15:35 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m5[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module './entities/co' or its corresponding type declarations.
+
+[7m5[0m import { Comment } from './entities/co';
+[7m [0m [91m                        ~~~~~~~~~~~~~~~[0m
+
+[[90m5:15:35 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:15:37 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"./entities/comment.entity"' has no exported member 'Comment'.
+
+[7m5[0m import { Comment } from './entities/comment.entity';
+[7m [0m [91m         ~~~~~~~[0m
+
+[[90m5:15:37 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:16:00 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"./entities/comment.entity"' has no exported member 'CommentE'.
+
+[7m5[0m import { CommentE } from './entities/comment.entity';
+[7m [0m [91m         ~~~~~~~~[0m
+
+[[90m5:16:00 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:16:01 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"./entities/comment.entity"' has no exported member 'CommentEn'.
+
+[7m5[0m import { CommentEn } from './entities/comment.entity';
+[7m [0m [91m         ~~~~~~~~~[0m
+
+[[90m5:16:01 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:16:01 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS2724: [0m'"./entities/comment.entity"' has no exported member named 'CommentEnti'. Did you mean 'CommentEntity'?
+
+[7m5[0m import { CommentEnti } from './entities/comment.entity';
+[7m [0m [91m         ~~~~~~~~~~~[0m
+
+  [96msrc/comment/entities/comment.entity.ts[0m:[93m6[0m:[93m14[0m
+    [7m6[0m export class CommentEntity {
+    [7m [0m [96m             ~~~~~~~~~~~~~[0m
+    'CommentEntity' is declared here.
+
+[[90m5:16:01 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:16:02 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:16:02 PM[0m] Found 0 errors. Watching for file changes.
+
+C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\apps\api\src\comment\comment.resolver.ts:7
+@Resolver(() => Comment)
+                ^
+
+
+ReferenceError: Comment is not defined
+    at <anonymous> (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\apps\api\src\comment\comment.resolver.ts:7:17)
+    at getClassOrUndefined (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\@nestjs\graphql\dist\decorators\resolvers.utils.js:35:15)
+    at getClassName (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\@nestjs\graphql\dist\decorators\resolvers.utils.js:19:30)
+    at C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\@nestjs\graphql\dist\decorators\resolver.decorator.js:42:69
+    at DecorateConstructor (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\reflect-metadata\Reflect.js:549:33)
+    at Reflect.decorate (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\node_modules\reflect-metadata\Reflect.js:143:24)
+    at __decorate (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\apps\api\dist\src\comment\comment.resolver.js:4:92)
+    at Object.<anonymous> (C:\Users\zrirak\Desktop\Dev\Javascript_Typescript\Professional_Project\WebDev\Professional Grade Projects\Blogger\apps\api\src\comment\comment.resolver.ts:8:29)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object..js (node:internal/modules/cjs/loader:1689:10)
+
+Node.js v22.11.0
+[2J[3J[H[[90m5:16:05 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:16:05 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:16:06 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/comment/comment.resolver.ts[0m:[93m5[0m:[93m28[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m5[0m import { CommentEntity as  } from './entities/comment.entity';
+[7m [0m [91m                           ~[0m
+
+[[90m5:16:06 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:16:07 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:16:07 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 43692  - [39m10/02/2025, 5:16:11 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 43692  - [39m10/02/2025, 5:16:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +71ms[39m
+[32m[Nest] 43692  - [39m10/02/2025, 5:16:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +26ms[39m
+[32m[Nest] 43692  - [39m10/02/2025, 5:16:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 43692  - [39m10/02/2025, 5:16:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 43692  - [39m10/02/2025, 5:16:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 43692  - [39m10/02/2025, 5:16:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 43692  - [39m10/02/2025, 5:16:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 43692  - [39m10/02/2025, 5:16:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 43692  - [39m10/02/2025, 5:16:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 43692  - [39m10/02/2025, 5:16:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +7ms[39m
+[32m[Nest] 43692  - [39m10/02/2025, 5:16:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 43692  - [39m10/02/2025, 5:16:11 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +331ms[39m
+[32m[Nest] 43692  - [39m10/02/2025, 5:16:11 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+[2J[3J[H[[90m5:20:12 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:20:13 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 112260  - [39m10/02/2025, 5:20:18 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 112260  - [39m10/02/2025, 5:20:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +54ms[39m
+[32m[Nest] 112260  - [39m10/02/2025, 5:20:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 112260  - [39m10/02/2025, 5:20:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112260  - [39m10/02/2025, 5:20:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112260  - [39m10/02/2025, 5:20:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112260  - [39m10/02/2025, 5:20:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112260  - [39m10/02/2025, 5:20:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 112260  - [39m10/02/2025, 5:20:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112260  - [39m10/02/2025, 5:20:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 112260  - [39m10/02/2025, 5:20:18 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +6ms[39m
+[32m[Nest] 112260  - [39m10/02/2025, 5:20:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 112260  - [39m10/02/2025, 5:20:18 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +148ms[39m
+[32m[Nest] 112260  - [39m10/02/2025, 5:20:18 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+[2J[3J[H[[90m5:20:21 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:20:21 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:20:24 PM[0m] File change detected. Starting incremental compilation...
+
+[32m[Nest] 71656  - [39m10/02/2025, 5:20:25 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 71656  - [39m10/02/2025, 5:20:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +58ms[39m
+[32m[Nest] 71656  - [39m10/02/2025, 5:20:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 71656  - [39m10/02/2025, 5:20:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 71656  - [39m10/02/2025, 5:20:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 71656  - [39m10/02/2025, 5:20:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 71656  - [39m10/02/2025, 5:20:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 71656  - [39m10/02/2025, 5:20:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 71656  - [39m10/02/2025, 5:20:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 71656  - [39m10/02/2025, 5:20:25 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 71656  - [39m10/02/2025, 5:20:25 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +7ms[39m
+[32m[Nest] 71656  - [39m10/02/2025, 5:20:25 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +5ms[39m
+[[90m5:20:25 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 71656  - [39m10/02/2025, 5:20:25 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +248ms[39m
+[32m[Nest] 71656  - [39m10/02/2025, 5:20:25 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+[2J[3J[H[[90m5:20:25 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:20:25 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:20:26 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:20:26 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:20:26 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:20:27 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 164260  - [39m10/02/2025, 5:20:31 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 164260  - [39m10/02/2025, 5:20:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +64ms[39m
+[32m[Nest] 164260  - [39m10/02/2025, 5:20:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 164260  - [39m10/02/2025, 5:20:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 164260  - [39m10/02/2025, 5:20:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 164260  - [39m10/02/2025, 5:20:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 164260  - [39m10/02/2025, 5:20:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 164260  - [39m10/02/2025, 5:20:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 164260  - [39m10/02/2025, 5:20:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 164260  - [39m10/02/2025, 5:20:31 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 164260  - [39m10/02/2025, 5:20:31 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +9ms[39m
+[32m[Nest] 164260  - [39m10/02/2025, 5:20:31 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +6ms[39m
+[32m[Nest] 164260  - [39m10/02/2025, 5:20:31 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +409ms[39m
+[32m[Nest] 164260  - [39m10/02/2025, 5:20:31 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+[2J[3J[H[[90m5:20:43 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:20:44 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 8196  - [39m10/02/2025, 5:20:47 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 8196  - [39m10/02/2025, 5:20:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +52ms[39m
+[32m[Nest] 8196  - [39m10/02/2025, 5:20:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8196  - [39m10/02/2025, 5:20:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +22ms[39m
+[32m[Nest] 8196  - [39m10/02/2025, 5:20:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8196  - [39m10/02/2025, 5:20:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8196  - [39m10/02/2025, 5:20:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8196  - [39m10/02/2025, 5:20:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8196  - [39m10/02/2025, 5:20:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8196  - [39m10/02/2025, 5:20:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 8196  - [39m10/02/2025, 5:20:48 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +7ms[39m
+[32m[Nest] 8196  - [39m10/02/2025, 5:20:48 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 8196  - [39m10/02/2025, 5:20:48 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +316ms[39m
+[32m[Nest] 8196  - [39m10/02/2025, 5:20:48 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+[2J[3J[H[[90m5:20:56 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:20:56 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 23968  - [39m10/02/2025, 5:21:02 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 23968  - [39m10/02/2025, 5:21:02 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +84ms[39m
+[32m[Nest] 23968  - [39m10/02/2025, 5:21:02 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +9ms[39m
+[32m[Nest] 23968  - [39m10/02/2025, 5:21:02 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 23968  - [39m10/02/2025, 5:21:02 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23968  - [39m10/02/2025, 5:21:02 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23968  - [39m10/02/2025, 5:21:02 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 23968  - [39m10/02/2025, 5:21:02 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 23968  - [39m10/02/2025, 5:21:02 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 23968  - [39m10/02/2025, 5:21:02 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 23968  - [39m10/02/2025, 5:21:02 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +13ms[39m
+[32m[Nest] 23968  - [39m10/02/2025, 5:21:02 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +12ms[39m
+[32m[Nest] 23968  - [39m10/02/2025, 5:21:02 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +397ms[39m
+[32m[Nest] 23968  - [39m10/02/2025, 5:21:02 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +10ms[39m
+[2J[3J[H[[90m5:21:16 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:21:16 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 112624  - [39m10/02/2025, 5:21:22 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 112624  - [39m10/02/2025, 5:21:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +69ms[39m
+[32m[Nest] 112624  - [39m10/02/2025, 5:21:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +11ms[39m
+[32m[Nest] 112624  - [39m10/02/2025, 5:21:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112624  - [39m10/02/2025, 5:21:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112624  - [39m10/02/2025, 5:21:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112624  - [39m10/02/2025, 5:21:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 112624  - [39m10/02/2025, 5:21:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 112624  - [39m10/02/2025, 5:21:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 112624  - [39m10/02/2025, 5:21:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 112624  - [39m10/02/2025, 5:21:22 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +17ms[39m
+[32m[Nest] 112624  - [39m10/02/2025, 5:21:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +11ms[39m
+[32m[Nest] 112624  - [39m10/02/2025, 5:21:22 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +418ms[39m
+[32m[Nest] 112624  - [39m10/02/2025, 5:21:22 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +10ms[39m
+[2J[3J[H[[90m5:21:30 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:21:30 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 141284  - [39m10/02/2025, 5:21:36 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 141284  - [39m10/02/2025, 5:21:36 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +91ms[39m
+[32m[Nest] 141284  - [39m10/02/2025, 5:21:36 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +32ms[39m
+[32m[Nest] 141284  - [39m10/02/2025, 5:21:36 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 141284  - [39m10/02/2025, 5:21:36 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 141284  - [39m10/02/2025, 5:21:36 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 141284  - [39m10/02/2025, 5:21:36 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 141284  - [39m10/02/2025, 5:21:36 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 141284  - [39m10/02/2025, 5:21:36 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 141284  - [39m10/02/2025, 5:21:36 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +4ms[39m
+[32m[Nest] 141284  - [39m10/02/2025, 5:21:36 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +15ms[39m
+[32m[Nest] 141284  - [39m10/02/2025, 5:21:36 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +8ms[39m
+[32m[Nest] 141284  - [39m10/02/2025, 5:21:37 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +454ms[39m
+[32m[Nest] 141284  - [39m10/02/2025, 5:21:37 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +8ms[39m
+[2J[3J[H[[90m5:22:38 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/tag/tag.module.ts[0m:[93m3[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module './tag.resolver' or its corresponding type declarations.
+
+[7m3[0m import { TagResolver } from './tag.resolver';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~[0m
+
+[[90m5:22:38 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m5:22:45 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/like/like.module.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.service' or its corresponding type declarations.
+
+[7m2[0m import { LikeService } from './like.service';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/like/like.resolver.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.service' or its corresponding type declarations.
+
+[7m2[0m import { LikeService } from './like.service';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/tag/tag.module.ts[0m:[93m3[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module './tag.resolver' or its corresponding type declarations.
+
+[7m3[0m import { TagResolver } from './tag.resolver';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~[0m
+
+[[90m5:22:45 PM[0m] Found 3 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:22:58 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/like/like.module.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.service' or its corresponding type declarations.
+
+[7m2[0m import { LikeService } from './like.service';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/like/like.module.ts[0m:[93m3[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.resolver' or its corresponding type declarations.
+
+[7m3[0m import { LikeResolver } from './like.resolver';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/tag/tag.module.ts[0m:[93m3[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module './tag.resolver' or its corresponding type declarations.
+
+[7m3[0m import { TagResolver } from './tag.resolver';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~[0m
+
+[[90m5:22:58 PM[0m] Found 3 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:23:21 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/like/like.module.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.service' or its corresponding type declarations.
+
+[7m2[0m import { LikeService } from './like.service';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/like/like.module.ts[0m:[93m3[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.resolver' or its corresponding type declarations.
+
+[7m3[0m import { LikeResolver } from './like.resolver';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/tag/tag.module.ts[0m:[93m2[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module './tag.service' or its corresponding type declarations.
+
+[7m2[0m import { TagService } from './tag.service';
+[7m [0m [91m                           ~~~~~~~~~~~~~~~[0m
+
+[96msrc/tag/tag.module.ts[0m:[93m3[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module './tag.resolver' or its corresponding type declarations.
+
+[7m3[0m import { TagResolver } from './tag.resolver';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~[0m
+
+[[90m5:23:21 PM[0m] Found 4 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:23:33 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/like/like.module.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.service' or its corresponding type declarations.
+
+[7m2[0m import { LikeService } from './like.service';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/like/like.module.ts[0m:[93m3[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.resolver' or its corresponding type declarations.
+
+[7m3[0m import { LikeResolver } from './like.resolver';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/tag/tag.module.ts[0m:[93m5[0m:[93m15[0m - [91merror[0m[90m TS2304: [0mCannot find name 'TagResolver'.
+
+[7m5[0m   providers: [TagResolver, TagService],
+[7m [0m [91m              ~~~~~~~~~~~[0m
+
+[96msrc/tag/tag.module.ts[0m:[93m5[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'TagService'.
+
+[7m5[0m   providers: [TagResolver, TagService],
+[7m [0m [91m                           ~~~~~~~~~~[0m
+
+[[90m5:23:34 PM[0m] Found 4 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:23:37 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/like/like.module.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.service' or its corresponding type declarations.
+
+[7m2[0m import { LikeService } from './like.service';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/like/like.module.ts[0m:[93m3[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.resolver' or its corresponding type declarations.
+
+[7m3[0m import { LikeResolver } from './like.resolver';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+
+[[90m5:23:37 PM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:24:18 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/like/like.module.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.service' or its corresponding type declarations.
+
+[7m2[0m import { LikeService } from './like.service';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/like/like.module.ts[0m:[93m3[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.resolver' or its corresponding type declarations.
+
+[7m3[0m import { LikeResolver } from './like.resolver';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+
+[[90m5:24:18 PM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:24:20 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/like/like.module.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.service' or its corresponding type declarations.
+
+[7m2[0m import { LikeService } from './like.service';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/like/like.module.ts[0m:[93m3[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.resolver' or its corresponding type declarations.
+
+[7m3[0m import { LikeResolver } from './like.resolver';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+
+[[90m5:24:20 PM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:24:26 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/like/like.module.ts[0m:[93m2[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.service' or its corresponding type declarations.
+
+[7m2[0m import { LikeService } from './like.service';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/like/like.module.ts[0m:[93m3[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './like.resolver' or its corresponding type declarations.
+
+[7m3[0m import { LikeResolver } from './like.resolver';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+
+[[90m5:24:26 PM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:24:54 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:24:54 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 216928  - [39m10/02/2025, 5:24:59 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 216928  - [39m10/02/2025, 5:24:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPrismaModule dependencies initialized[39m[38;5;3m +60ms[39m
+[32m[Nest] 216928  - [39m10/02/2025, 5:24:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTagModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 216928  - [39m10/02/2025, 5:24:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 216928  - [39m10/02/2025, 5:24:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommentModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 216928  - [39m10/02/2025, 5:24:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLikeModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 216928  - [39m10/02/2025, 5:24:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 216928  - [39m10/02/2025, 5:24:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 216928  - [39m10/02/2025, 5:24:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLSchemaBuilderModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 216928  - [39m10/02/2025, 5:24:59 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mGraphQLModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 216928  - [39m10/02/2025, 5:24:59 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +8ms[39m
+[32m[Nest] 216928  - [39m10/02/2025, 5:24:59 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 216928  - [39m10/02/2025, 5:24:59 PM [32m    LOG[39m [38;5;3m[GraphQLModule] [39m[32mMapped {/graphql, POST} route[39m[38;5;3m +273ms[39m
