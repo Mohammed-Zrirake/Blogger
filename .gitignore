@@ -1,0 +1,57 @@
+# =========================================
+# GENERAL
+# =========================================
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# Build artifacts
+.turbo/
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / IDE specific
+.DS_Store
+.vscode/
+*.pem
+
+# =========================================
+# ENVIRONMENT
+# =========================================
+# Never commit environment variables
+.env
+.env.*
+!.env.example
+
+# =========================================
+# APPS
+# =========================================
+
+# Next.js (front)
+apps/front/.next/
+apps/front/out/
+apps/front/next-env.d.ts
+
+# Nest.js (api)
+apps/api/dist/
+
+# =========================================
+# PRISMA
+# =========================================
+# It's best practice to generate the Prisma client on `postinstall`
+# rather than committing it to version control.
+/apps/api/generated/
+
+# =========================================
+# USER-GENERATED CONTENT (Example)
+# =========================================
+# User uploads and other generated data should be ignored
+/apps/api/uploads/
+/apps/api/clientsData/
