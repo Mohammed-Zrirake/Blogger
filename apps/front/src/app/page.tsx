@@ -1,5 +1,5 @@
 
-import Hero from './../components/ui/hero';
+import Hero from '../components/hero';
 
 
 type Props = {
