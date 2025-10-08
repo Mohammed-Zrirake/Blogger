@@ -16,7 +16,6 @@ const Pagination = ({
   pageNeighbors = 2,
   className,
 }: Props) => {
-  //  ... 3 4 5 6 7 ...
   const pageNumbers = calculatePageNumbers({
     pageNeighbors,
     currentPage,
@@ -25,7 +24,6 @@ const Pagination = ({
 
   return (
     <div className={cn("flex items-center justify-center gap-2", className)}>
-      {/* pervious page button */}
       {currentPage !== 1 && (
         <button className={cn("rounded-md bg-slate-200 py-2 px-2")}>
           <Link href={`?page=${currentPage - 1}`}>
@@ -46,7 +44,6 @@ const Pagination = ({
           {page === "..." ? "..." : <Link href={`?page=${page}`}>{page}</Link>}
         </button>
       ))}
-      {/* next page button */}
       {currentPage !== totalPages && (
         <button className="rounded-md bg-slate-200 py-2 px-2">
           <Link href={`?page=${currentPage + 1}`}>
