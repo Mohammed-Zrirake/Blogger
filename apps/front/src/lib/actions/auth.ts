@@ -2,7 +2,7 @@
 
 import { object } from "zod";
 import { SignUpFormState } from "../types/formState";
-import { SignUpFormSchema } from "../zodSchemas/signUpFormSchema";
+import { SignUpFormSchema } from "../zodSchemas/SignUpFormSchema";
 import { fetchGraphQL } from "../fetchGraphQL";
 import { print } from "graphql";
 import { CREATE_USER_MUTATION, SIGN_IN_MUTATION } from "../gqlQueries";
@@ -10,6 +10,7 @@ import { redirect } from "next/navigation";
 import { LoginFormSchema } from "../zodSchemas/loginFormSchema";
 import { revalidatePath } from "next/cache";
 import { createSession } from "../session";
+
 
 
 export async function signUp(
